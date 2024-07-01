@@ -1,0 +1,47 @@
+.Sign-Out {
+  border: none;
+  padding: 10px 15px;
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.Home-Container {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.user {
+  color: red;
+}
+
+.user span {
+  color: black;
+}
+
+.Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  color: black;
+}
+
+.Home-Container span {
+  color: red;
+}
+
+.email {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.username {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

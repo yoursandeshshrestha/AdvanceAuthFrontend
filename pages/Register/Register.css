@@ -1,0 +1,80 @@
+.Register-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh);
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+}
+
+.Register-Message {
+  width: 350px;
+}
+
+.Register-Message h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.Register-Message p {
+  color: gray;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-input-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.register-input-form input {
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin-top: 5px;
+  width: 350px;
+  border: 1px solid rgba(128, 128, 128, 0.539);
+}
+
+form .Register-submit-btn {
+  width: 350px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3453cd;
+  color: white;
+  cursor: pointer;
+}
+
+.Other-Links span {
+  color: #0033ff;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+.register-input-form input#password {
+  position: relative;
+}
+
+.password-show-button {
+  position: absolute;
+  right: 14px;
+  top: 52%;
+  color: gray;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
